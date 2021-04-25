@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ripten.github.io/oles-favorites",
-  "name": "oles-favorites",
+  "homepage": "https://ripten.github.io/olesfavorites",
+  "name": "olesfavorites",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
