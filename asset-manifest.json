@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/olesfavorites/static/css/main.e6b3f866.chunk.css",
+    "main.js": "/olesfavorites/static/js/main.9e90912d.chunk.js",
+    "main.js.map": "/olesfavorites/static/js/main.9e90912d.chunk.js.map",
+    "runtime-main.js": "/olesfavorites/static/js/runtime-main.d5fd20e5.js",
+    "runtime-main.js.map": "/olesfavorites/static/js/runtime-main.d5fd20e5.js.map",
+    "static/js/2.f90260d0.chunk.js": "/olesfavorites/static/js/2.f90260d0.chunk.js",
+    "static/js/2.f90260d0.chunk.js.map": "/olesfavorites/static/js/2.f90260d0.chunk.js.map",
+    "index.html": "/olesfavorites/index.html",
+    "static/css/main.e6b3f866.chunk.css.map": "/olesfavorites/static/css/main.e6b3f866.chunk.css.map",
+    "static/js/2.f90260d0.chunk.js.LICENSE.txt": "/olesfavorites/static/js/2.f90260d0.chunk.js.LICENSE.txt",
+    "static/media/Kon.19a21553.png": "/olesfavorites/static/media/Kon.19a21553.png",
+    "static/media/film-black.520bde13.png": "/olesfavorites/static/media/film-black.520bde13.png",
+    "static/media/imdb.8b13a62e.png": "/olesfavorites/static/media/imdb.8b13a62e.png",
+    "static/media/star.3f026a8c.png": "/olesfavorites/static/media/star.3f026a8c.png",
+    "static/media/tv-black.e610f69d.png": "/olesfavorites/static/media/tv-black.e610f69d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5fd20e5.js",
+    "static/js/2.f90260d0.chunk.js",
+    "static/css/main.e6b3f866.chunk.css",
+    "static/js/main.9e90912d.chunk.js"
+  ]
+}
