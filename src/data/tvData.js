@@ -71,6 +71,13 @@ export const tvData =
         "imdbLink": "https://www.imdb.com/title/tt0944947/"
     },
     {
+        "title": "Haikyuu!!",
+        "stars": 2,
+        "language": "Japanese",
+        "year": 2014,
+        "imdbLink": "https://www.imdb.com/title/tt3398540/"
+    },
+    {
         "title": "It's Always Sunny In Philadelphia",
         "stars": 2,
         "language": "English",
@@ -104,13 +111,6 @@ export const tvData =
         "language": "German",
         "year": 2017,
         "imdbLink": "https://www.imdb.com/title/tt5753856/"
-    },
-    {
-        "title": "Haikyuu!!",
-        "stars": 1,
-        "language": "Japanese",
-        "year": 2014,
-        "imdbLink": "https://www.imdb.com/title/tt3398540/"
     },
     {
         "title": "Manhattan Love Story",
