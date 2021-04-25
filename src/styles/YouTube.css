@@ -1,0 +1,360 @@
+.youtube-content {
+    padding-top: 50px;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 80px;
+}
+
+.youtube-video {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #666666;
+    background-color: black;
+    margin-bottom: 60px;
+}
+
+.video-title  {
+    font: 40px "Garamond";
+    color:  #FFFFFF;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.video-creator  {
+    font: 25px "Garamond";
+    color:  #FFFFFF;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.video-description  {
+    font: 20px "Garamond";
+    text-align: left;
+    color:  #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+  
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+/*__________________________________________________________ Adjustments to make design mobile friendly ______________________________________________________*/
+
+@media only screen and (max-width: 4096px) {
+    .youtube-content {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}
+
+@media only screen and (max-width: 3840px) {
+    .youtube-content {
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+}
+
+@media only screen and (max-width: 3440px) {
+    .youtube-content {
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+}
+
+@media only screen and (max-width: 2560px) {
+    .youtube-content {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+@media only screen and (max-width: 2200px) {
+    .youtube-content {
+        margin-left: 33%;
+        margin-right: 33%;
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+    .youtube-content {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .youtube-content {
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .youtube-content {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .youtube-content {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .youtube-content {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .youtube-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .youtube-content {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+    .video-description  {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .youtube-content {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .youtube-content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .youtube-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .youtube-content {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .youtube-content {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .video-title  {
+        font: 35px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .video-creator  {
+        font: 20px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        font: 17px "Garamond";
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .video-title  {
+        font: 30px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .video-creator  {
+        font: 18px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        font: 16px "Garamond";
+        margin-bottom: 5px;;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .youtube-content {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .video-title  {
+        font: 25px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .video-creator  {
+        font: 17px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        font: 16px "Garamond";
+    }
+
+    .video-responsive {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .video-title  {
+        font: 23px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .video-description  {
+        font: 15px "Garamond";
+        margin-left: 12%;
+        margin-right: 12%; 
+    }
+
+    .video-responsive {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .video-title  {
+        font: 20px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .video-description  {
+        font: 14px "Garamond";
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .video-title  {
+        font: 18px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .video-creator  {
+        font: 15px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        font: 13px "Garamond";
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .youtube-content {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .video-title  {
+        font: 17px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .video-creator  {
+        font: 14px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        margin-top: 5px;
+        font: 12px "Garamond";
+    }
+
+    .video-responsive {
+        margin-right: 7px;
+        margin-left: 7px;
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .video-title  {
+        font: 16px "Garamond";
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .video-creator  {
+        font: 13px "Garamond";
+        font-style: italic;
+    }
+    
+    .video-description  {
+        margin-top: 5px;
+        font: 12px "Garamond";
+    }
+}
