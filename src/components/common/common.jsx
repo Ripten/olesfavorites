@@ -2,26 +2,18 @@ import React from 'react';
 import star from '../../images/star.png';
 import '../../styles/Media.css';
 
-export function createStars(stars) {
-    if (stars === 3) {
+
+export function getTitle(row) {
+    if (row.star === true) {
         return (
-            <div className="stars">
-                <img className="star-icon" src={star} alt="star" />
-                <img className="star-icon" src={star} alt="star" />
-                <img className="star-icon" src={star} alt="star" />
-            </div>)
-    }
-    else if (stars === 2) {
-        return (
-            <div className="stars">
-                <img className="star-icon" src={star} alt="star" />
-                <img className="star-icon" src={star} alt="star" />
-            </div>)
+            <td className="title-td">
+                <div className="stars">
+                    {row.title} <img className="star-icon" src={star} alt="star" />
+                </div>
+            </td>
+        )
     }
     else {
-        return (
-            <div className="stars">
-                <img className="star-icon" src={star} alt="star" />
-            </div>)
+        return ( <td className="title-td">{row.title}</td> )
     }
 }

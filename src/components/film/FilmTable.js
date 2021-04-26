@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/Media.css';
 import filmData from '../../data/filmData.js';
 import MediaModal from '../common/MediaModal.js';
-import { createStars } from '../common/common.jsx';
+import {  getTitle } from '../common/common.jsx';
 
 
 class FilmTable extends Component {
@@ -24,18 +24,16 @@ class FilmTable extends Component {
                     <thead>
                         <tr>
                             <th>Title</th>
-                            <th className="stars-th">Stars</th>
-                            <th>Language</th>
                             <th>Year</th>
+                            <th>Language</th>
                         </tr>
                     </thead>
                     <tbody>
                         {filmData.map((row) => (
                             <tr key={row.title} className="tr-clickable" onClick={() => this.showModal(row)}>
-                                <td className="title-td">{row.title}</td>
-                                <td>{createStars(row.stars)}</td>
-                                <td>{row.language}</td>
+                                {getTitle(row)}
                                 <td>{row.year}</td>
+                                <td>{row.language}</td>
                             </tr>
                         ))}
                     </tbody>

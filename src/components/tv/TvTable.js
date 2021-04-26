@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/Media.css';
 import tvData from '../../data/tvData';
 import MediaModal from '../common/MediaModal.js';
-import { createStars } from '../common/common.jsx';
+import { getTitle } from '../common/common.jsx';
 
 
 class TvTable extends Component {
@@ -24,18 +24,16 @@ class TvTable extends Component {
                     <thead>
                         <tr>
                             <th>Title</th>
-                            <th className="stars-th">Stars</th>
-                            <th>Language</th>
                             <th>Year</th>
+                            <th>Language</th>
                         </tr>
                     </thead>
                     <tbody>
                         {tvData.map((row) => (
                             <tr key={row.title} className="tr-clickable" onClick={() => this.showModal(row)}>
-                                <td className="title-td">{row.title}</td>
-                                <td>{createStars(row.stars)}</td>
-                                <td>{row.language}</td>
+                                {getTitle(row)}
                                 <td>{row.year}</td>
+                                <td>{row.language}</td>
                             </tr>
                         ))}
                     </tbody>
