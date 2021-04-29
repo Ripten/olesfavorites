@@ -3,17 +3,17 @@ import star from '../../images/star.png';
 import '../../styles/Media.css';
 
 
-export function getTitle(row) {
-    if (row.star === true) {
+export function getTitle(element) {
+    if (element.star === true) {
         return (
             <td className="title-td">
                 <div className="stars">
-                    {row.title} <img className="star-icon" src={star} alt="star" />
+                    {element.title} <img className="star-icon" src={star} alt="star" />
                 </div>
             </td>
         )
     }
     else {
-        return ( <td className="title-td">{row.title}</td> )
+        return ( <td className="title-td">{element.title}</td> )
     }
 }

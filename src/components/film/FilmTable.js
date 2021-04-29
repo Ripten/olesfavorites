@@ -29,11 +29,11 @@ class FilmTable extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {filmData.map((row) => (
-                            <tr key={row.title} className="tr-clickable" onClick={() => this.showModal(row)}>
-                                {getTitle(row)}
-                                <td>{row.year}</td>
-                                <td>{row.language}</td>
+                        {filmData.map((film) => (
+                            <tr key={film.title} className="tr-clickable" onClick={() => this.showModal(film)}>
+                                {getTitle(film)}
+                                <td>{film.year}</td>
+                                <td>{film.language}</td>
                             </tr>
                         ))}
                     </tbody>

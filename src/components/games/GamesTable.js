@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import '../../styles/Media.css';
-import tvData from '../../data/tvData';
-import MediaModal from '../common/MediaModal.js';
+import gameData from '../../data/gameData';
 import { getTitle } from '../common/common.jsx';
 
 
-class TvTable extends Component {
+class GamesTable extends Component {
     state = { show: false, data: '' }
 
     showModal = (newData) => {
@@ -19,21 +18,20 @@ class TvTable extends Component {
     render() {
         return (
             <div>
-                <MediaModal show={this.state.show} handleClose={this.hideModal} data={this.state.data} ></MediaModal>
                 <table align="center">
                     <thead>
                         <tr>
                             <th>Title</th>
-                            <th>Year</th>
-                            <th>Language</th>
+                            <th>Year (EU)</th>
+                            <th>System used</th>
                         </tr>
                     </thead>
                     <tbody>
-                        {tvData.map((tv) => (
-                            <tr key={tv.title} className="tr-clickable" onClick={() => this.showModal(tv)}>
-                                {getTitle(tv)}
-                                <td>{tv.year}</td>
-                                <td>{tv.language}</td>
+                        {gameData.map((game) => (
+                            <tr key={game.title}>
+                                {getTitle(game)}
+                                <td>{game.released}</td>
+                                <td>{game.system}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -43,4 +41,4 @@ class TvTable extends Component {
     }
 }
 
-export default TvTable;
+export default GamesTable;
