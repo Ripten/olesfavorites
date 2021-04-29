@@ -156,7 +156,7 @@ export const tvData =
     },
     {
         "title": "True Detective (Season 1)",
-        "star": true,
+        "star": false,
         "language": "English",
         "year": 2014,
         "imdbLink": "https://www.imdb.com/title/tt2356777/"
