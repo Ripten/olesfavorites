@@ -120,6 +120,13 @@ export const tvData =
         "imdbLink": "https://www.imdb.com/title/tt0285403/"
     },
     {
+        "title": "Severance",
+        "star": false,
+        "language": "English",
+        "year": 2022,
+        "imdbLink": "https://www.imdb.com/title/tt11280740/"
+    },
+    {
         "title": "Succession",
         "star": false,
         "language": "English",
