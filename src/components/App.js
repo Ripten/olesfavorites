@@ -94,7 +94,7 @@ class App extends Component {
     let tvbutton = document.getElementById('tv-button')
     let youtubebutton = document.getElementById('youtube-button')
 
-    if (this.state.showTV === true) {
+    if (this.state.showGames === true) {
       ReactDOM.findDOMNode(filmbutton).style['opacity'] = 1;
       ReactDOM.findDOMNode(tvbutton).style['opacity'] = 1;
       ReactDOM.findDOMNode(youtubebutton).style['opacity'] = 1;
