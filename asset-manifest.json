@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/olesfavorites/static/css/main.32c8dc22.chunk.css",
-    "main.js": "/olesfavorites/static/js/main.6b7bf235.chunk.js",
-    "main.js.map": "/olesfavorites/static/js/main.6b7bf235.chunk.js.map",
-    "runtime-main.js": "/olesfavorites/static/js/runtime-main.d5fd20e5.js",
-    "runtime-main.js.map": "/olesfavorites/static/js/runtime-main.d5fd20e5.js.map",
-    "static/js/2.f421add9.chunk.js": "/olesfavorites/static/js/2.f421add9.chunk.js",
-    "static/js/2.f421add9.chunk.js.map": "/olesfavorites/static/js/2.f421add9.chunk.js.map",
+    "main.css": "/olesfavorites/static/css/main.f5d5e894.css",
+    "main.js": "/olesfavorites/static/js/main.02f9c9ce.js",
+    "static/media/Kon.png": "/olesfavorites/static/media/Kon.19a2155396c85e0e39ba.png",
+    "static/media/star.png": "/olesfavorites/static/media/star.3f026a8c8e63c9f016fc.png",
+    "static/media/imdb.png": "/olesfavorites/static/media/imdb.8b13a62e34c8b6fe7f55.png",
+    "static/media/film-icon.png": "/olesfavorites/static/media/film-icon.826b36e10f6ae07bb331.png",
+    "static/media/youtube-icon.png": "/olesfavorites/static/media/youtube-icon.89b8e0c98d5566d646c9.png",
+    "static/media/games-icon.png": "/olesfavorites/static/media/games-icon.14635808554a0860830d.png",
     "index.html": "/olesfavorites/index.html",
-    "static/css/main.32c8dc22.chunk.css.map": "/olesfavorites/static/css/main.32c8dc22.chunk.css.map",
-    "static/js/2.f421add9.chunk.js.LICENSE.txt": "/olesfavorites/static/js/2.f421add9.chunk.js.LICENSE.txt",
-    "static/media/Kon.19a21553.png": "/olesfavorites/static/media/Kon.19a21553.png",
-    "static/media/film-icon.826b36e1.png": "/olesfavorites/static/media/film-icon.826b36e1.png",
-    "static/media/games-icon.14635808.png": "/olesfavorites/static/media/games-icon.14635808.png",
-    "static/media/imdb.8b13a62e.png": "/olesfavorites/static/media/imdb.8b13a62e.png",
-    "static/media/star.3f026a8c.png": "/olesfavorites/static/media/star.3f026a8c.png",
-    "static/media/youtube-icon.89b8e0c9.png": "/olesfavorites/static/media/youtube-icon.89b8e0c9.png"
+    "main.f5d5e894.css.map": "/olesfavorites/static/css/main.f5d5e894.css.map",
+    "main.02f9c9ce.js.map": "/olesfavorites/static/js/main.02f9c9ce.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5fd20e5.js",
-    "static/js/2.f421add9.chunk.js",
-    "static/css/main.32c8dc22.chunk.css",
-    "static/js/main.6b7bf235.chunk.js"
+    "static/css/main.f5d5e894.css",
+    "static/js/main.02f9c9ce.js"
   ]
 }
