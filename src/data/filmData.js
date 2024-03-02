@@ -92,6 +92,13 @@ export const filmData =
         "imdbLink": "https://www.imdb.com/title/tt0095327/"
     },
     {
+      "title": "Harakiri",
+      "star": false,
+      "language": "Japanese",
+      "year": 1962,
+      "imdbLink": "https://www.imdb.com/title/tt0056058/"
+    },
+    {
       "title": "Ikiru",
       "star": false,
       "language": "Japanese",
